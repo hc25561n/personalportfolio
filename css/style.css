@@ -1,0 +1,185 @@
+/*
+Author: Hannah Curry
+Date: 3/2/25
+File Name: style.css
+*/
+
+/* CSS Reset */
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rules for body and images */
+
+body {
+  background-color: #f0f0f0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rule for header */
+
+header {
+  width: 25%;
+  float: left;
+}
+
+/* Style rules for navigation area */
+
+nav {
+  width: 70%;
+  float: right;
+  margin: 5em 3em 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+/* Style rules for main content */
+
+main {
+  clear: left;
+  background-color: #fff;
+  padding: 2%;
+  font-size: 1.25em;
+}
+
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+}
+
+#experience {
+  clear: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #f2f2f2;
+  padding: 1% 2%;
+}
+
+#experience dt {
+  font-weight: bold;
+}
+
+#experience dd {
+  padding: 0.5% 1% 2% 0;
+}
+
+.external-link {
+  color: #666600;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#projects {
+  clear: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #f2f2f2;
+  padding: 1% 2%;
+}
+
+#projects dt {
+  font-weight: bold;
+}
+
+#projects dd {
+  padding: 0.5% 1% 2% 0;
+}
+
+#skills {
+  clear: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #f2f2f2;
+  padding: 1% 2%;
+}
+
+#skills dt {
+  font-weight: bold;
+}
+
+#skills dd {
+  padding: 0.5% 1% 2% 0;
+}
+
+#interests {
+  clear: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #f2f2f2;
+  padding: 1% 2%;
+}
+
+#interests dt {
+  font-weight: bold;
+}
+
+#interests dd {
+  padding: 0.5% 1% 2% 0;
+}
+
+.orientation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+#contact {
+  text-align: center;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #696969;
+}
+
+/* Style rules for footer content */
+
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #696969;
+  padding: 01em;
+}
+
+footer p a {
+  color: #696969;
+  text-decoration: none;
+}
